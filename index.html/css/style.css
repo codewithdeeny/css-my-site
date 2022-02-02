@@ -1,9 +1,16 @@
 body {
   margin: 0;
   text-align: center;
+  background-color: #c3c4c4;
 }
 .top-container {
-  background-color: #e4f9f5;
+  background-color: #eaf6f6;
+  margin: 10px 10px auto 10px;
+}
+.bottom-container {
+  background-color: #66bfbf;
+  padding: 20px;
+  margin: auto 10px 10px 10px;
 }
 h1 {
   margin-top: 50px;
@@ -17,7 +24,7 @@ h2 {
   font-weight: normal;
 }
 h3 {
-  color: #0fd6dd;
+  color: #11999e;
 }
 
 .bottom-cloud {
@@ -30,9 +37,16 @@ h3 {
 }
 .footer-link {
   color: #11999e;
+  margin: 10px;
 }
 .btn {
-  color: #11999e;
+  color: whitesmoke;
+  text-decoration: none;
+  background-color: #66bfbf;
+  padding: 10px;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: #66bfbf;
 }
 .skill-row {
   width: 50%;
@@ -42,4 +56,21 @@ h3 {
 }
 .skill-image {
   width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.dotted {
+  width: 4%;
+  border: 10px dotted #40514e;
+  border-bottom-width: 0;
+  border-color: #eaf6f6;
+}
+#name {
+  color: #eaf6f6;
+}
+.contact-me {
+  margin-bottom: 50px;
+}
+.paragraph {
+  color: black;
 }
