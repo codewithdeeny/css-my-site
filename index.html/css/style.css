@@ -1,11 +1,16 @@
 body {
+  color: #40514e;
   margin: 0;
   text-align: center;
   background-color: #c3c4c4;
+  padding-bottom: 10px;
 }
 .top-container {
   background-color: #eaf6f6;
   margin: 10px 10px auto 10px;
+}
+.middle-container {
+  margin: 100px 0;
 }
 .bottom-container {
   background-color: #66bfbf;
@@ -38,6 +43,11 @@ h3 {
 .footer-link {
   color: #11999e;
   margin: 10px;
+  text-decoration: none;
+}
+.footer-link:hover {
+  background-color: white;
+  color: blue;
 }
 .btn {
   color: whitesmoke;
@@ -47,6 +57,10 @@ h3 {
   border-style: solid;
   border-radius: 10px;
   border-color: #66bfbf;
+}
+.btn:hover {
+  background-color: burlywood;
+  color: red;
 }
 .skill-row {
   width: 50%;
@@ -70,7 +84,4 @@ h3 {
 }
 .contact-me {
   margin-bottom: 50px;
-}
-.paragraph {
-  color: black;
 }
